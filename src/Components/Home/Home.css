@@ -1,0 +1,17 @@
+.contain {
+    height: 100vh;
+    padding-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text-primary-color);
+}
+
+.profile {
+    margin-top: 5em;
+    border-radius: 50%;
+    border: 1px solid;
+    border-color: var(--navbar-color);
+    width: 20em;
+    height: 20em;
+}

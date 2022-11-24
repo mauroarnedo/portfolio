@@ -1,0 +1,66 @@
+.web div {
+    width: 13rem;
+    height: 13rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    border-color: var(--navbar-color);
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.web div a {
+    transition: all 0.5s ease;
+}
+
+.web div a p {
+    font-family: var(--font-secondary);
+    color: #020202;
+    text-shadow: 0 1px 0 #110d17, 0 -1px 0 #110d17, 1px 0 0 #110d17, -1px 0 0 #110d17;
+}
+
+.web div a::before {
+    opacity: 1;
+}
+
+.web div a:hover {
+    opacity: 0;
+}
+
+.blog {
+    height: auto;
+    background-image: url("../../Icons/Webs/color-palette.png");
+    background-size: cover;
+}
+
+.countries {
+    background-image: url("../../Icons/Webs/background.jpg");
+    background-size: cover;
+}
+
+.chat {
+    background-image: url("../../Icons/Webs/logo.png");
+    background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .web {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .web div {
+        margin-top: 2em;
+        margin-right: 0 !important;
+        width: 9em;
+        height: 9em;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+    .web {
+        padding-top: 10em;
+    }
+}

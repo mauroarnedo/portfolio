@@ -1,0 +1,15 @@
+.aboutContain p {
+    margin-top: 2em;
+    text-align: center;
+}
+
+@media screen and (min-width: 769px) and (max-width:1023px) {
+    .aboutContain {
+        margin-top: 3rem;
+        margin-bottom: 5rem;
+    }
+
+    .aboutContain p {
+        margin-top: 0;
+    }
+}

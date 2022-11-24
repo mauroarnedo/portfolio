@@ -1,0 +1,23 @@
+.icon {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: var(--text-primary-color);
+}
+
+.copyright {
+    margin-right: 3rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .goUp {
+        transition: all 0.5s ease-in-out;
+    }
+
+    .goUp:hover {
+        height: 5rem;
+        width: 5rem;
+        background-color: var(--navbar-color);
+        transition: all 0.5s ease-in-out;
+    }
+}

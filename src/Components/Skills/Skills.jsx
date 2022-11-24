@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, OverlayTrigger, Tooltip } from "react-bootstrap";
+import './Skills.css';
 import htmlLogo from '../../Icons/Skills/html.png';
 import cssLogo from '../../Icons/Skills/css.png';
 import jsLogo from '../../Icons/Skills/javascript.png';
@@ -14,7 +15,7 @@ import mongoLogo from '../../Icons/Skills/mongodb.png';
 function Skills() {
     return (
         <div id='skills' className="contain">
-            <div className="d-flex flex-column align-items-center justify-content-center web p-0">
+            <div className="d-flex flex-column align-items-center justify-content-center p-0">
                 <h1 className="subtitle">Skills</h1>
                 <br />
                 <br />
@@ -23,7 +24,7 @@ function Skills() {
                 <br />
             </div>
             <Container>
-                <div className="d-flex flex-row flex-wrap justify-content-center skills">
+                <div className="d-flex flex-column flex-md-row flex-wrap align-items-center justify-content-center skills">
                     <div>
                         <OverlayTrigger
                             placement="top"

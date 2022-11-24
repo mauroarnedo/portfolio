@@ -1,0 +1,5 @@
+.customNavbar {
+    margin: 0;
+    list-style: none;
+    background-color: var(--navbar-color);
+}

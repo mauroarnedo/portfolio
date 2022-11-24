@@ -24,12 +24,6 @@ a {
   text-decoration: none !important;
 }
 
-.customNavbar {
-  margin: 0;
-  list-style: none;
-  background-color: var(--navbar-color);
-}
-
 main {
   display: flex;
   flex-direction: column;
@@ -41,22 +35,11 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
   color: var(--text-primary-color);
 }
 
 .contain img {
   border-radius: 50%;
-}
-
-.profile img {
-  border: 1px solid;
-  border-color: var(--navbar-color);
-}
-
-.about p {
-  margin-top: 2em;
-  text-align: center;
 }
 
 .subtitle {
@@ -76,82 +59,11 @@ main {
   bottom: 0;
 }
 
-.web div {
-  width: 13rem;
-  height: 13rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid;
-  border-color: var(--navbar-color);
-  border-radius: 50%;
-  text-align: center;
-  cursor: pointer;
-}
-
-.web div a {
-  transition: all 0.5s ease;
-}
-
-.web div a p {
-  font-family: var(--font-secondary);
-  color: #020202;
-  text-shadow: 0 1px 0 #110d17, 0 -1px 0 #110d17, 1px 0 0 #110d17, -1px 0 0 #110d17;
-}
-
-.web div a::before {
-  opacity: 1;
-}
-
-.web div a:hover {
-  opacity: 0;
-}
-
-.skills div {
-  margin-right: 5rem;
-  margin-bottom: 3rem;
-  cursor: pointer;
-}
-
-.skills div img {
-  height: 7rem;
-  border-radius: 0% !important;
-}
-
-.icon {
-  height: 3rem;
-  width: 3rem;
-  border-radius: 50%;
-  background-color: var(--text-primary-color);
-}
-
-.goUp {
-  transition: all 0.5s ease-in-out;
-}
-
-.goUp:hover {
-  height: 5rem;
-  width: 5rem;
-  background-color: var(--navbar-color);
-  transition: all 0.5s ease-in-out;
-}
-
-.copyright {
-  margin-right: 3rem;
-}
-
-.blog {
-  height: auto;
-  background-image: url("./Icons/Webs/color-palette.png");
-  background-size: cover;
-}
-
-.countries {
-  background-image: url("./Icons/Webs/background.jpg");
-  background-size: cover;
-}
-
-.chat {
-  background-image: url("./Icons/Webs/logo.png");
-  background-size: cover;
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  main {
+    margin-top: 35%;
+  }
+  .subtitle {
+    margin-bottom: 5rem;
+  }
 }

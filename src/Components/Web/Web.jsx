@@ -1,5 +1,6 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
+import './Web.css';
 
 function Web() {
     return (
@@ -7,7 +8,7 @@ function Web() {
             <div>
                 <h1 className="subtitle">Web</h1>
             </div>
-            <div className="d-flex flex-row align-items-center justify-content-center web m-0 p-0">
+            <div className="d-md-flex flex-md-row align-items-center justify-content-center web m-0 p-0">
                 <div className="me-5 blog">
                     <a href="https://daniel-arnedo.vercel.app/" target="_blank">
                         <p>D.A<br/> Blog</p>

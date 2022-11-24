@@ -1,8 +1,9 @@
 import React from "react";
+import './About.css';
 
 function About() {
     return (
-        <div id='about' className="contain about">
+        <div id='about' className="contain aboutContain">
         <h1 className="subtitle">About</h1>
         <p>
             Hey, welcome to the start of my journey!
