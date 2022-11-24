@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 
 function Web() {
@@ -8,17 +9,17 @@ function Web() {
             </div>
             <div className="d-flex flex-row align-items-center justify-content-center web m-0 p-0">
                 <div className="me-5 blog">
-                    <a href="https://daniel-arnedo.vercel.app/">
-                        <p>Blog</p>
+                    <a href="https://daniel-arnedo.vercel.app/" target="_blank">
+                        <p>D.A<br/> Blog</p>
                     </a>
                 </div>
                 <div className="me-5 countries">
-                    <a href="https://countries-mda.vercel.app/">
+                    <a href="https://countries-mda.vercel.app/" target="_blank">
                         <p>PI-Countries</p>
                     </a>
                 </div>
                 <div className="chat">
-                    <a href="https://golang-react-chat.vercel.app/">
+                    <a href="https://golang-react-chat.vercel.app/" target="_blank">
                         <p>ChatApp</p>
                     </a>
                 </div>
