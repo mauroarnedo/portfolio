@@ -8,10 +8,10 @@
 }
 
 .profile {
-    margin-top: 5em;
+    margin-top: 3em;
     border-radius: 50%;
     border: 1px solid;
     border-color: var(--navbar-color);
-    width: 20em;
-    height: 20em;
+    width: 200px;
+    height: 250px;
 }
