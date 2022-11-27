@@ -19,6 +19,11 @@ function Web() {
                         <p>PI-Countries</p>
                     </a>
                 </div>
+                <div className="me-5 machi">
+                    <a href="https://ecommerce-machi.netlify.app/" target="_blank">
+                        <p>E-Commerce Machi</p>
+                    </a>
+                </div>
                 <div className="chat">
                     <a href="https://golang-react-chat.vercel.app/" target="_blank">
                         <p>ChatApp</p>

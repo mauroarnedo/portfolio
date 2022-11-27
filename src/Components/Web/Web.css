@@ -1,6 +1,6 @@
 .web div {
-    width: 13rem;
-    height: 13rem;
+    width: 11rem;
+    height: 11rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,6 +43,12 @@
 .chat {
     background-image: url("../../Icons/Webs/logo.png");
     background-size: cover;
+}
+
+.machi {
+    background-image: url("../../Icons/Webs/machi.png");
+    background-color: white;
+    background-size: contain;
 }
 
 @media screen and (max-width: 768px) {
